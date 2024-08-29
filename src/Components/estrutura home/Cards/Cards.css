@@ -1,0 +1,55 @@
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: #000;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width:100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family:'Kdam Thmor Pro', sans-serif;
+  }
+
+ .card:hover {
+    transform: scale(1.02);
+ }
+
+ 
+ .banner1 {
+    background-image: url('https://www.tribunapr.com.br/wp-content/uploads/sites/56/2022/02/28121730/batman-2022-tudo-o-que-precisa-saber-antes-de-ver-o-filme.jpg');
+   }
+   .banner2 {
+     background-image: url('https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2022/02/Zoe-CNN-Batman.png?w=390');
+   }
+   .banner3 {
+     background-image: url('data:image/jpeg;base64,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');
+   }
+  
+
+   @media(max-width: 768px) {
+    .cards-content {
+      grid-template-columns: 1fr;
+      margin-top: 150px;
+    }
+  }

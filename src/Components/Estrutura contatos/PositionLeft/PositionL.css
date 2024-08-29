@@ -1,0 +1,37 @@
+
+
+
+.position-containerI {
+    bottom: 190px;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    border-radius: 8px;
+}
+
+.position-containerII {
+    bottom: -30px;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    border-radius: 8px;
+}
+
+
+@media(max-width: 768px){
+
+    .Project-card{
+        width: 450px;
+        height: 150px;
+    }
+
+    .position-containerI{
+        bottom: 140px;
+    }
+    
+    .position-containerII{
+        bottom: -10px;
+    }
+}

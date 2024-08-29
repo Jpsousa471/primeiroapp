@@ -1,0 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+
+#bannerI {
+    width: 100%;
+    height: 800px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVwEQLKK6QPH2y4RQkA8ZsX7Q5Ixa2YyFXbw&s');
+    background-size: cover;
+    background-position: 50% 50%; 
+}
+

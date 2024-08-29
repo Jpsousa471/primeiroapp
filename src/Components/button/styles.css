@@ -1,0 +1,34 @@
+
+
+.default {
+    margin-left: 500px;
+    width: 150px;
+    height: 70px;
+    background-color: #fff;
+    color: black;
+    border-radius: 5px;
+    border: 10px solid black;
+}
+
+.button2 {
+    margin-top: 5px;
+    width: 150px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: 10px solid black;
+}
+
+.buttono{ 
+    width: 150px;
+    height: 70px;
+    background-color: red; 
+    border-radius: 5px;
+    border: 10px solid black;
+    margin-left: 600px;
+}
+
+span {
+    display: block;
+}

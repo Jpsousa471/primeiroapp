@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+.HeaderP {
+    height: 50px;
+}
+
+#navP {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+#Logo2 {
+    width: 150px;
+    height: auto;
+   margin-top: 35px;
+}
+
+
+@media(max-width: 768px){
+
+    #navP{
+        display: none;
+    }
+
+}
